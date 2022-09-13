@@ -1,0 +1,12 @@
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello World!");
+        //array is an a datatype to store the similar data types in single variable is called array 
+        //Syntax of an array: datatype[] variable name= constructor datatype[size of the array];
+        float[] arr= new float[2];
+        arr[0]=12.3f;
+        arr[1]=13.4f;
+        System.out.println(arr[0]+" "+arr[1]);
+        //array doesnot allow deletion because array index has separate memory allocation or continuous memory location
+    }
+}
